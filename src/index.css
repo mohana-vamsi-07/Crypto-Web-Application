@@ -5,8 +5,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #36454f;
 }
 
+hr{
+  /* justify-content: center; */
+  width: 70%;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -15,7 +20,7 @@ code {
 .header{
   height: 150px;
   width:100%;
-  background-color: black;
+  background-color: #36454f;
   text-align: center;
 }
 
@@ -33,16 +38,22 @@ input{
   display: grid;
   grid-template-columns: repeat(4,325px);
   grid-auto-rows: 330px;
-  margin: 5px;
-  background-color: white;
+  margin: auto;
+  width: 85%;
+  /* background-color: #36454F; */
+  align-items: center;
 }
 
 .grid-container > div{
-  background-color: black;
-  margin: 10px;
+  background-color: whitesmoke;
+  margin: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
   padding-top: 10px;
-  color: white;
+  padding-right: 25px;
+  color: black;
   text-align: center;
+  box-shadow: 1px 1px 1px 2px #293740;
   border-radius: 10px;
 }
 
